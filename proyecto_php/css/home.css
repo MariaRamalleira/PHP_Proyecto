@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: century gothic;
+  text-align: center;
+}
+
+.cabecera {
+  background-color: violet;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 5em;
+}
+header a {
+  margin-left: 1em;
+  display: flex;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  text-decoration: none;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 2px black;
+  font-size: 40px;
+  font-weight: bold;
+  transition: all ease 300ms;
+}
+.contenedor {
+  display: flex;
+  flex-direction: row;
+}
+.contactos {
+  width: 35%;
+  height: 42em;
+  border: 1px solid black;
+}
+.mensajes {
+  width: 65%;
+  height: auto;
+  border: 1px solid black;
+}
+.contacto {
+    border: 1px solid black;
+    height: 15%;
+}
+.mensaje{
+    border: 1px solid black;
+    height: 15%;
+    border-collapse: collapse;
+}
